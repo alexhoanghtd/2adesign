@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+textarea {
+	resize: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	min-height: 1800px;
+	max-height: 3000px;
+	min-width: 600px;
+	line-height: 1;
+	font-family: 'OpenSans-Light';
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+@font-face
+{
+	font-family: OpenSans-Light;
+	src: url('../fonts/OpenSans-Light.ttf');    
+}
+
+@font-face
+{
+	font-family: OpenSans-Bold;
+	src: url('../fonts/OpenSans-Bold.ttf');    
+}
+
+@font-face
+{
+	font-family: OpenSans-Regular;
+	src: url('../fonts/OpenSans-Regular.ttf');    
+}
+@font-face
+{
+	font-family: OpenSans-Semibold;
+	src: url('../fonts/OpenSans-Semibold.ttf');    
+}
+.h2a{
+	font-family: 'OpenSans-SemiBold';
+	font-size: 130%;
+	letter-spacing: -1px;
+}
+div.section-trans-bg{
+	position: absolute;
+	z-index: -1;
+	top: 0px;	
+	height: 100%;
+	width: 100%;
+	background: #222;
+}
